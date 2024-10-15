@@ -10,8 +10,8 @@ from pathlib import Path
 from subprocess import CalledProcessError
 from typing import Any, Dict
 
-from rpm_package_function.tooling.azcmd import AzCmdJson, AzCmdNone
-from rpm_package_function.tooling.bicep_deployment import BicepDeployment
+from azure_blobrepo_rpm.tooling.azcmd import AzCmdJson, AzCmdNone
+from azure_blobrepo_rpm.tooling.bicep_deployment import BicepDeployment
 
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())

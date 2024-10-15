@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 from typing import Any, Dict
 
-from rpm_package_function.tooling.azcmd import AzCmdJson, AzCmdNone
+from azure_blobrepo_rpm.tooling.azcmd import AzCmdJson, AzCmdNone
 
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())

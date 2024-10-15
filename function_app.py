@@ -9,14 +9,14 @@ import azure.functions as func
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import ContainerClient
 
-from rpm_package_function import (
+from azure_blobrepo_rpm import (
     AzureBaseRepository,
     AzureDistributionRepository,
     AzureFlatRepository,
 )
 
 app = func.FunctionApp()
-log = logging.getLogger("rpm-package-function")
+log = logging.getLogger("azure-blobrepo-rpm")
 log.addHandler(logging.NullHandler())
 
 # Turn down logging for azure functions

@@ -12,7 +12,7 @@ import pytest
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import ContainerClient
 
-from rpm_package_function import (
+from azure_blobrepo_rpm import (
     AzureDistributionOrganiser,
     AzureDistributionRepository,
     AzureFlatOrganiser,

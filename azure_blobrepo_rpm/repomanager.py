@@ -11,8 +11,8 @@ from typing import List, Optional, Set, Union
 import createrepo_c
 from azure.storage.blob import ContainerClient
 
-from rpm_package_function import AzureDistributionOrganiser, AzureFlatOrganiser
-from rpm_package_function.rpmpackage import RemoteRpmPackage
+from azure_blobrepo_rpm import AzureDistributionOrganiser, AzureFlatOrganiser
+from azure_blobrepo_rpm.rpmpackage import RemoteRpmPackage
 
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())

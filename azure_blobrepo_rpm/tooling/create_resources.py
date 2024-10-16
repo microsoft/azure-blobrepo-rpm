@@ -8,15 +8,12 @@ import logging
 import sys
 from pathlib import Path
 
-from rpm_package_function.tooling import common_logging
-from rpm_package_function.tooling.advice import (
-    advice_distribution_repo,
-    advice_flat_repo,
-)
-from rpm_package_function.tooling.bicep_deployment import BicepDeployment
-from rpm_package_function.tooling.func_app import FuncAppBundle
-from rpm_package_function.tooling.poetry import extract_requirements
-from rpm_package_function.tooling.resource_group import create_rg
+from azure_blobrepo_rpm.tooling import common_logging
+from azure_blobrepo_rpm.tooling.advice import advice_distribution_repo, advice_flat_repo
+from azure_blobrepo_rpm.tooling.bicep_deployment import BicepDeployment
+from azure_blobrepo_rpm.tooling.func_app import FuncAppBundle
+from azure_blobrepo_rpm.tooling.poetry import extract_requirements
+from azure_blobrepo_rpm.tooling.resource_group import create_rg
 
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())

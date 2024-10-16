@@ -1,4 +1,4 @@
-# rpm-package-function
+# azure-blobrepo-rpm
 
 Functionality to create an RPM package repository in Azure Blob Storage with
 an Azure Function App to keep it up to date.

@@ -10,7 +10,7 @@ from typing import Callable, List
 
 from azure.storage.blob import ContainerClient
 
-from rpm_package_function.rpmpackage import (
+from azure_blobrepo_rpm.rpmpackage import (
     BaseRpmPackage,
     LocalRpmPackage,
     RemoteRpmPackage,

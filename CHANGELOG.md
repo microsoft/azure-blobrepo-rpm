@@ -24,5 +24,5 @@ Status: Available for use
 
 ### Changed
 
-[unreleased]: https://github.com/microsoft/rpm-package-function/compare/0.1.0...HEAD
-[0.1.0]: https://github.com/microsoft/rpm-package-function/tree/0.1.0
+[unreleased]: https://github.com/microsoft/azure-blobrepo-rpm/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/microsoft/azure-blobrepo-rpm/tree/0.1.0

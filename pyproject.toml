@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rpm-package-function"
+name = "azure-blobrepo-rpm"
 version = "0.1.0"
 description = "Functionality to create an RPM package repository in Azure Blob Storage"
 authors = ["Max Dymond <max.dymond@microsoft.com>"]
@@ -31,7 +31,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # Script to create resources in Azure
-create-resources = "rpm_package_function.tooling.create_resources:run"
+create-resources = "azure_blobrepo_rpm.tooling.create_resources:run"
 
 [tool.isort]
 profile = "black"

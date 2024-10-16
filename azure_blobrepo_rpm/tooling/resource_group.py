@@ -4,7 +4,7 @@
 
 import logging
 
-from rpm_package_function.tooling.azcmd import AzCmdNone
+from azure_blobrepo_rpm.tooling.azcmd import AzCmdNone
 
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())
